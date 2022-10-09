@@ -1,0 +1,222 @@
+.full-w-container {
+    width: 100%;
+    height: 540px;
+    background: url('../../static/herousel/herousel1.jpg');
+    background-position: center;
+    position: relative;
+}
+
+.hero-bg {
+    position: absolute;
+    z-index: 0;
+}
+
+.hero-container {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 18px;
+    z-index: 1;
+}
+
+.hero-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-button {
+    padding: 8px 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.tab-button span {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.tab-active {
+    background-color: white;
+    position: relative;
+    color: var(--color-third);
+    border-radius: 24px;
+}
+
+.tab-active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    background-color: #fff;
+    left: calc(50% - 5px);
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+}
+
+.hero-content-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8.1px;
+    margin-top: 13px;
+}
+
+.hero-content {
+    padding: 56px 48px 48px 48px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-content-icon {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.hero-content-icon:hover {
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.hero-content-part1 {
+    margin-top: 8px;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.33px;
+    max-height: 100px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.hero-content-part2 {
+    margin-top: 8px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0.34px;
+    max-height: 100px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.hero-content-img-container {
+    width: 680px;
+    min-width: 680px;
+    padding: 4px;
+    margin-bottom: -4px;
+}
+
+.hero-content-img-container img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.hero-content-button {
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.14;
+    padding: 12px 24px;
+    margin-top: 24px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.hero-content-button:hover {
+    background-color: rgb(245, 87, 0);
+}
+
+.hero-thumbnail-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    margin-top: 14px;
+}
+
+.hero-thumbnail-slider-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 56px;
+    opacity: 0.4;
+    height: 36px;
+    border-radius: 18px;
+    border: solid 2px #fff;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.hero-thumbnail-slider-arrow:has(.next):hover {
+    width: 200px;
+}
+
+.hero-thumbnail-slider-arrow:hover .next {
+    display: block;
+
+    overflow: hidden;
+    transition: all 0.2s linear;
+}
+
+.hero-thumbnail-slider-arrow:hover {
+    opacity: 1;
+}
+
+.hero-thumbnail-slider svg {
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.next {
+    display: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    margin: 8px;
+
+    white-space: nowrap;
+    transition: all 0.3s linear;
+}
+
+.hero-thumbnail-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin: 0 14px;
+}
+
+.hero-thumbnail-img {
+    height: 44px;
+    object-fit: cover;
+    width: 60px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.hero-thumbnail-img.active-thumb {
+    border: 2px solid white;
+}

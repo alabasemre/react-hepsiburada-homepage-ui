@@ -1,0 +1,22 @@
+.marketing-container {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+}
+
+.banner-text {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    color: #484848;
+    font-size: 19px;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+}
+
+.banner-img {
+    border-radius: 8px;
+}

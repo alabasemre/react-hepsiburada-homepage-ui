@@ -1,0 +1,32 @@
+.slick-arrow {
+    position: absolute;
+    top: calc(50% - 16px);
+    /* display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important; */
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 2;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    -o-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    -webkit-box-shadow: 0 0 8px 0 rgb(0 0 0 / 24%);
+    box-shadow: 0 0 8px #0000003d;
+    cursor: pointer;
+}
+
+.slick-arrow-left {
+    left: -6px;
+}
+
+.slick-arrow-right {
+    right: -6px;
+}

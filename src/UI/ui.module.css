@@ -1,0 +1,20 @@
+.section-header {
+    color: rgb(72, 72, 72);
+    font-size: 32px;
+}
+
+.section-header a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(246, 109, 0);
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    letter-spacing: -0.15px;
+}
+
+.section-header a svg {
+    font-size: 16px;
+}
