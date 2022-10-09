@@ -19,14 +19,14 @@ body {
     /* background-color: gainsboro; */
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
-}
-
 .container-1200 {
     width: 1200px;
     margin: 0 auto;
+}
+
+.slider-container {
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 a {
