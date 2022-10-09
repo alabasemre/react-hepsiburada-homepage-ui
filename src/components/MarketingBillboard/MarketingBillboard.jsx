@@ -5,6 +5,7 @@ import marketingImg2 from '../../static/marketing/2.jpg';
 import marketingImg3 from '../../static/marketing/3.jpg';
 import marketingImg4 from '../../static/marketing/4.jpg';
 import marketingImg5 from '../../static/marketing/5.jpg';
+import marketingImg6 from '../../static/marketing/6.png';
 
 const data = [
     {
@@ -70,6 +71,11 @@ const MarketingBillboard = () => {
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className={styles['banner-wide']}>
+                <a href='/'>
+                    <img src={marketingImg6} alt='' />
+                </a>
             </div>
         </section>
     );

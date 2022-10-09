@@ -4,7 +4,7 @@ import SectionHeader from './SectionHeader';
 const Section = ({ title, className, children, href, hrefText }) => {
     return (
         <section>
-            <div className={`container-1200 mt-38 ${className}`}>
+            <div className={`container-1200 mt-72 ${className}`}>
                 <SectionHeader title={title} href={href} hrefText={hrefText} />
                 {children}
             </div>
