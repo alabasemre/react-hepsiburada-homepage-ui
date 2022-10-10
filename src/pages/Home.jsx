@@ -9,10 +9,11 @@ import Explore from '../components/Explore/Explore';
 
 import { brandsData, featuresData } from '../components/BrandSlider/sliderData';
 import { recommendedProducts } from '../components/ProductSlider/productData';
+import Footer from '../components/Footer/Footer';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Header />
             <Navbar />
             <main>
@@ -37,7 +38,8 @@ const Home = () => {
                 />
                 <Explore />
             </main>
-        </div>
+            <Footer />
+        </>
     );
 };
 
