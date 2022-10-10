@@ -5,6 +5,7 @@ import MarketingBillboard from '../components/MarketingBillboard/MarketingBillbo
 import Navbar from '../components/Navbar/Navbar';
 import SuperPrice from '../components/SuperPrice/SuperPrice';
 import ProductSlider from '../components/ProductSlider/ProductSlider';
+import Explore from '../components/Explore/Explore';
 
 import { brandsData, featuresData } from '../components/BrandSlider/sliderData';
 import { recommendedProducts } from '../components/ProductSlider/productData';
@@ -34,6 +35,7 @@ const Home = () => {
                     title='Şu an en çok bakılan ürünler'
                     products={recommendedProducts}
                 />
+                <Explore />
             </main>
         </div>
     );

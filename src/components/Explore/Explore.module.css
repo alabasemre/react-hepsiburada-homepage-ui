@@ -1,0 +1,31 @@
+.explore-container {
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.explore-category-title {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.17px;
+    margin-bottom: 24px;
+    color: #6c84fa;
+}
+
+.explore-more {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--color-third);
+    letter-spacing: -0.28px;
+    margin-bottom: 16px;
+    margin-top: -16px;
+}
+
+.explore-items {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 48px;
+    column-gap: 6px;
+}
