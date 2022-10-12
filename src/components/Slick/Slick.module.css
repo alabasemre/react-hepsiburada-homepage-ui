@@ -14,7 +14,7 @@
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background: #fff;
+    background: var(--white);
     -o-transition: all 0.15s ease-in-out;
     -webkit-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;

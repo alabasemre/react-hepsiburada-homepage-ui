@@ -9,6 +9,13 @@
     --color-primary: #ff6000;
     --color-secondary: #484848;
     --color-third: #646464;
+    --border-color: #e5e5e5;
+    --border-color-2: #919191;
+    --cornflower: #6c84fa;
+    --link-color: rgba(72, 72, 72, 0.6);
+    --very-light-pink: #ccc;
+    --white: #fff;
+    --black: #000;
 }
 
 body {
@@ -55,7 +62,7 @@ a {
 }
 
 .white-text {
-    color: white;
+    color: var(--white);
 }
 
 .p-10 {

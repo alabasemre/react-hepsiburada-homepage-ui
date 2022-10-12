@@ -11,7 +11,7 @@
     line-height: 1.5;
     letter-spacing: -0.17px;
     margin-bottom: 24px;
-    color: #6c84fa;
+    color: var(--cornflower);
 }
 
 .explore-more {

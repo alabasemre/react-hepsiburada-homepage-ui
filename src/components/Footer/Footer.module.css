@@ -34,7 +34,7 @@
 }
 
 .footer-header-link {
-    color: rgba(72, 72, 72, 0.6);
+    color: var(--link-color);
     font-size: 14px;
     font-weight: 700;
 }
@@ -74,7 +74,7 @@
 
 .footer-feature-text {
     font-size: 14px;
-    color: #000;
+    color: var(--black);
     font-weight: 400;
     line-height: 1.2;
     font-family: Helvetica, sans-serif;
@@ -91,8 +91,8 @@
     margin-bottom: 20px;
     padding: 22px 15px;
     min-width: 1200px;
-    border-top: 2px solid #e5e5e5;
-    border-bottom: 1px solid #e5e5e5;
+    border-top: 2px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .footer-seo-container :where(h1, p) {
@@ -151,7 +151,7 @@
 }
 
 .footer-link-item {
-    color: rgba(72, 72, 72, 0.6);
+    color: var(--link-color);
     font-size: 12px;
     font-weight: 700;
 }
@@ -161,7 +161,7 @@
 }
 
 .social-icon {
-    background-color: rgba(72, 72, 72, 0.6);
+    background-color: var(--link-color);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -172,7 +172,7 @@
 }
 
 .social-icon svg {
-    fill: #fff;
+    fill: var(--white);
     height: 14px;
     width: 14px;
 }
@@ -201,8 +201,8 @@
     line-height: 30px;
     font-size: 12px;
     font-weight: 700;
-    color: #919191;
-    border: 1px solid #919191;
+    color: var(--border-color-2);
+    border: 1px solid var(--border-color-2);
 }
 
 .solution-link:hover {
@@ -217,8 +217,8 @@
 
 .solution-or span {
     padding: 0 16px;
-    color: #919191;
-    background-color: #fff;
+    color: var(--border-color-2);
+    background-color: var(--white);
     position: relative;
     z-index: 1;
 }
@@ -263,7 +263,7 @@
 .app-list li a {
     display: flex;
     align-items: center;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-color-2);
     border-radius: 5px;
     -moz-border-radius: 5px;
     -o-border-radius: 5px;
@@ -289,7 +289,7 @@
 
 .app-list span {
     display: block;
-    color: #ccc;
+    color: var(--very-light-pink);
     font-weight: 400;
     padding-top: 2px;
 }
@@ -347,7 +347,7 @@
 }
 
 .footer-bottom-right-text span {
-    color: #919191;
+    color: var(--border-color-2);
 }
 
 @media screen and (max-width: 1024px) {

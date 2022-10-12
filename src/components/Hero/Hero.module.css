@@ -29,9 +29,9 @@
     padding: 8px 16px;
     margin-left: 12px;
     margin-right: 12px;
-    border: 2px solid rgba(0, 0, 0, 0);
+    border: 2px solid transparent;
     font-size: 14px;
-    color: #fff;
+    color: var(--white);
     font-weight: 700;
     cursor: pointer;
 }
@@ -53,7 +53,7 @@
     content: '';
     position: absolute;
     bottom: -5px;
-    background-color: #fff;
+    background-color: var(--white);
     left: calc(50% - 5px);
     transform: rotate(45deg);
     width: 10px;
@@ -63,7 +63,7 @@
 .hero-content-container {
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: var(--white);
     border-radius: 8.1px;
     margin-top: 13px;
 }
@@ -128,7 +128,7 @@
 
 .hero-content-button {
     background-color: var(--color-primary);
-    color: #fff;
+    color: var(--white);
     font-size: 14px;
     font-weight: 600;
     line-height: 1.14;
@@ -162,7 +162,7 @@
     opacity: 0.4;
     height: 36px;
     border-radius: 18px;
-    border: solid 2px #fff;
+    border: solid 2px var(--white);
     cursor: pointer;
     transition: all 0.2s linear;
 }
@@ -184,7 +184,7 @@
 
 .hero-thumbnail-slider svg {
     font-size: 20px;
-    color: #fff;
+    color: var(--white);
     cursor: pointer;
     transition: all 0.2s linear;
 }
@@ -193,7 +193,7 @@
     display: none;
     font-size: 13px;
     font-weight: 600;
-    color: #fff;
+    color: var(--white);
     margin: 8px;
 
     white-space: nowrap;

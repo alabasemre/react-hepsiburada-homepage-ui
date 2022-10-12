@@ -11,7 +11,7 @@
     height: 72px;
     padding: 0 8px;
     margin-bottom: 16px;
-    color: #484848;
+    color: var(--color-secondary);
     font-size: 19px;
     letter-spacing: -0.025em;
     font-weight: 300;
