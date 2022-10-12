@@ -14,8 +14,12 @@
 ---
 
 This project created with npx create-react-app.
+
 **Third Party Dependencies**
 
 -   React Slick / Slick Carosuel
 -   React Icons
-    I did not use any CSS framework.
+
+I did not use any CSS framework.
+
+Live Version : https://hepsiburada-homepage-ui.web.app/
