@@ -24,6 +24,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* background-color: gainsboro; */
+    min-width: 1200px;
 }
 
 .container-1200 {

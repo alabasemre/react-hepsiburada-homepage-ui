@@ -1,6 +1,7 @@
 .full-w-container {
     background-color: #f5f5f5;
     position: relative;
+    min-width: 1200px;
 }
 
 .nav-container {
